@@ -15,7 +15,7 @@ const PRIVKEY = [59, 147,  65, 238, 179, 150, 79, 105, 101,  96,  53,
     34, 238, 121,  49, 212, 199, 94,  59, 245];
 
 // SPL token address being swapped
-let TOKEN_ADDR = "ADD_TOKEN_ADDRESS_TO_BUY_SELL";
+let TOKEN_ADDR = "DU2F21hFfHB9uz76eJbSknFFn9PWNWcGiMZWXAFYpump";
 
 // SOL token address (Solana's native token often used in swaps)
 const SOL_ADDR = "Cf1wNBjkw7GYA7HziU5wJyPW8DKHBjBAxksY7E1DCtmS";
